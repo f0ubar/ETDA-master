@@ -18,7 +18,6 @@ namespace Dreamer.Core
         public void Initialize()
         {
             InjectModule();
-            InjectCodeStubs();
             Program.MainForm.Invoke((MethodInvoker)delegate ()
             {
                 //invoke OnAttached, so signal creation of Packet Handlers.
@@ -30,31 +29,6 @@ namespace Dreamer.Core
         {
             if (Memory.Read<byte>((IntPtr)StaticPointers.ETDA, false) == 85)
                 Memory.Modules.Inject(Path.Combine(Environment.CurrentDirectory, "EtDA.dll"));
-        }
-        private void InjectCodeStubs()
-        {
-            if (Memory == null || !Memory.IsRunning)
-                return;
-            var offset = 0x697B;
-            var send = Memory.Read<int>((IntPtr)0x85C000, false) + offset;
-            var payload = new byte[] { 0x13, 0x01 };
-            var payload_length_arg =
-                Memory.Memory.Allocate(2,
-                Binarysharp.MemoryManagement.Native.MemoryProtectionFlags.ExecuteReadWrite);
-            Memory.Write(payload_length_arg.BaseAddress, (short)payload.Length, false);
-            var payload_arg =
-                Memory.Memory.Allocate(sizeof(byte) * payload.Length,
-                Binarysharp.MemoryManagement.Native.MemoryProtectionFlags.ExecuteReadWrite);
-            Memory.Write(payload_arg.BaseAddress, payload, false);
-            var asm = new string[]
-            {
-                "mov eax, " + payload_length_arg.BaseAddress,
-                "push eax",
-                "mov edx, " + payload_arg.BaseAddress,
-                "push edx",
-                "call " + send,
-            };
-            Memory.Assembly.Inject(asm, (IntPtr)0x006FE000);
         }
         public void ProcessExited()
         {

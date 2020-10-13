@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\ETDA-master\Mapping\bin\Debug\Mapping.exe.config
+C:\Users\Admin\Desktop\ETDA-master\Mapping\bin\Debug\Mapping.exe
+C:\Users\Admin\Desktop\ETDA-master\Mapping\bin\Debug\Mapping.pdb
+C:\Users\Admin\Desktop\ETDA-master\Mapping\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\ETDA-master\Mapping\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\ETDA-master\Mapping\obj\Debug\Mapping.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\ETDA-master\Mapping\obj\Debug\Mapping.Form1.resources
+C:\Users\Admin\Desktop\ETDA-master\Mapping\obj\Debug\Mapping.Properties.Resources.resources
+C:\Users\Admin\Desktop\ETDA-master\Mapping\obj\Debug\Mapping.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\ETDA-master\Mapping\obj\Debug\Mapping.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\ETDA-master\Mapping\obj\Debug\Mapping.csproj.CopyComplete
+C:\Users\Admin\Desktop\ETDA-master\Mapping\obj\Debug\Mapping.exe
+C:\Users\Admin\Desktop\ETDA-master\Mapping\obj\Debug\Mapping.pdb
+C:\Users\Admin\Desktop\ETDA-master\Mapping\bin\Debug\sotp.dat

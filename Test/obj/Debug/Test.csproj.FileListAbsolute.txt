@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\ETDA-master\Test\bin\Debug\Test.exe.config
+C:\Users\Admin\Desktop\ETDA-master\Test\bin\Debug\Test.exe
+C:\Users\Admin\Desktop\ETDA-master\Test\bin\Debug\Test.pdb
+C:\Users\Admin\Desktop\ETDA-master\Test\bin\Debug\Fasm.NET.dll
+C:\Users\Admin\Desktop\ETDA-master\Test\bin\Debug\MemorySharp.dll
+C:\Users\Admin\Desktop\ETDA-master\Test\bin\Debug\MemorySharp.xml
+C:\Users\Admin\Desktop\ETDA-master\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\ETDA-master\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\ETDA-master\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\Admin\Desktop\ETDA-master\Test\obj\Debug\Test.exe
+C:\Users\Admin\Desktop\ETDA-master\Test\obj\Debug\Test.pdb
+C:\Users\Admin\Desktop\ETDA-master\Test\bin\Debug\EtDA.dll
